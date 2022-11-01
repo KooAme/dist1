@@ -1,0 +1,1 @@
+import{a as t,A as u}from"./index.5545ae43.js";function i(){const[s,n]=t.exports.useState(),r=t.exports.useContext(u);return t.exports.useLayoutEffect(()=>{r.getAccessToken().then(e=>{n(e.jwtToken)})},[]),{option:{retry:(e,o)=>(o.response.data==="Authorization Error"&&o.response.status,!1),refetchOnWindowFocus:!1},token:s}}export{i as u};
