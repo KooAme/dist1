@@ -1,1 +1,0 @@
-import{a}from"./index.4f6cb32c.js";function f(u,e){const[r,n]=a.exports.useState(u),s=t=>{n(typeof t=="string"?t:()=>t.target.value)};return e?{value:r,onChange:s,label:e}:{value:r,onChange:s}}export{f as u};
